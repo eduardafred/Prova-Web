@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperação Web - Eduarda Frederico</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <section class="login">
+        <div class="imagem">
+            <!-- Aqui vai a imagem nas CSS -->
+        </div>
+        <div class="formulario">
+
+            <div class="campo">
+                <div class="logar">
+                    <i class="material-icons">person</i>
+                    <input type="submit" value="Logar">
+                </div>
+                <div class="alterar">
+                    <i class="material-icons">add_circle</i>
+                    <input type="submit" value="Alterar">
+                </div>
+                
+            </div>
+            <p>Preencha as informações abaixo:</p>
+            <form action="login.php" method="post" autocomplete="on">
+                <div class="inputs">
+                    <div class="form">
+                        <input type="text" name="nome" placeholder="Nome" id="login" maxlength="30">
+                    </div>
+                    <div class="form">
+                        <input type="text" name="telefone" placeholder="Telefone" id="login" maxlength="30">
+                    </div>
+                    <div class="form">
+                        <input type="email" name="email" placeholder="Email" id="login" maxlength="30">
+                    </div>
+                </div>
+                <p>Ao confirmar voce concorda com os termos.</p>
+                <a href="termos.html">Terms & Conditions</a>
+                <div class="confirm">
+                    <input type="submit" value="Confirm">
+                </div>
+            </form>
+
+            </div>
+        </div>
+    </section>
+</main>
+<script>
+    feather.replace();
+</script>
+</body>
+</html>
